@@ -632,7 +632,7 @@
         "uuid": "bfc6d187-34e5-4475-ae17-354b2103d42a"
       }
     ],
-    "used_designators": "",
+    "used_designators": "IC2,#PWR47-50,C25-26",
     "variants": []
   },
   "sheets": [
