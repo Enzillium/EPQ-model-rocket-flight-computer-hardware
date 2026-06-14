@@ -582,12 +582,162 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CREATOR",
+          "name": "CREATOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -628,17 +778,53 @@
     "top_level_sheets": [
       {
         "filename": "flight computer.kicad_sch",
-        "name": "flight computer",
+        "name": "microcontroller",
         "uuid": "bfc6d187-34e5-4475-ae17-354b2103d42a"
+      },
+      {
+        "filename": "power.kicad_sch",
+        "name": "power management",
+        "uuid": "f20dbb28-4774-4389-9d87-f45a0594cbc0"
+      },
+      {
+        "filename": "interfaces.kicad_sch",
+        "name": "ports & peripherals",
+        "uuid": "3c072741-617e-4bed-867d-b839f905ce15"
+      },
+      {
+        "filename": "pyros_&_motor.kicad_sch",
+        "name": "pyros & motor",
+        "uuid": "946c231f-bcc7-4274-a50d-157c7247b8f7"
+      },
+      {
+        "filename": "sensors_&_communication.kicad_sch",
+        "name": "sensors & communication",
+        "uuid": "bdd95a45-8144-4be4-bdb0-261aee7edef2"
       }
     ],
-    "used_designators": "R21-28,J5,Q6,#PWR68-75,U10-16",
+    "used_designators": "IC1,#PWR11,#PWR18,#PWR23,C73-74",
     "variants": []
   },
   "sheets": [
     [
       "bfc6d187-34e5-4475-ae17-354b2103d42a",
-      "flight computer"
+      "microcontroller"
+    ],
+    [
+      "f20dbb28-4774-4389-9d87-f45a0594cbc0",
+      "power management"
+    ],
+    [
+      "3c072741-617e-4bed-867d-b839f905ce15",
+      "ports & peripherals"
+    ],
+    [
+      "946c231f-bcc7-4274-a50d-157c7247b8f7",
+      "pyros & motor"
+    ],
+    [
+      "bdd95a45-8144-4be4-bdb0-261aee7edef2",
+      "sensors & communication"
     ]
   ],
   "text_variables": {},
