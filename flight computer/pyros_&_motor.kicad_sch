@@ -2581,12 +2581,6 @@
 		(uuid "b4fc6224-b16d-420b-8ffa-73158dd30f4a")
 	)
 	(junction
-		(at 62.23 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bbdaf58d-223e-4d48-8d51-2cbffbf74f74")
-	)
-	(junction
 		(at 35.56 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2627,6 +2621,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed94b6fc-cf9f-46e8-a2af-54d43721ab09")
+	)
+	(junction
+		(at 62.23 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f219aba6-2780-4db3-bce7-0a6e8c350956")
 	)
 	(junction
 		(at 60.96 31.75)
@@ -3049,16 +3049,6 @@
 			(type default)
 		)
 		(uuid "5167a263-b08d-48b6-82bc-09b987e88f9e")
-	)
-	(wire
-		(pts
-			(xy 234.95 26.67) (xy 229.87 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5586db70-43b5-41d4-8256-f7635abff34a")
 	)
 	(polyline
 		(pts
@@ -3612,6 +3602,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 26.67) (xy 219.71 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0227ddf-98d2-4cdf-89cc-95a70b4fc464")
+	)
+	(wire
+		(pts
 			(xy 224.79 63.5) (xy 237.49 63.5)
 		)
 		(stroke
@@ -3629,6 +3629,16 @@
 			(type default)
 		)
 		(uuid "d08175f1-ad62-47f2-927e-f527e2a7d70b")
+	)
+	(wire
+		(pts
+			(xy 229.87 26.67) (xy 234.95 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d210cd57-0b8c-411b-aea5-df153e3535cf")
 	)
 	(wire
 		(pts
@@ -3679,16 +3689,6 @@
 			(type default)
 		)
 		(uuid "d9a835b2-51aa-4682-9105-619ed7810b8e")
-	)
-	(wire
-		(pts
-			(xy 214.63 26.67) (xy 219.71 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da772d3e-453e-4c01-ae3d-633598fa2b0f")
 	)
 	(wire
 		(pts
@@ -4361,162 +4361,6 @@
 			(project "flight computer"
 				(path "/946c231f-bcc7-4274-a50d-157c7247b8f7"
 					(reference "#PWR078")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 214.63 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "045ae3f5-8598-45a9-b237-893a60999676")
-		(property "Reference" "#PWR092"
-			(at 214.63 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V I/O"
-			(at 214.63 21.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 214.63 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c1e16f06-2b4f-439a-b245-044cd055c03f")
-		)
-		(instances
-			(project "flight computer"
-				(path "/946c231f-bcc7-4274-a50d-157c7247b8f7"
-					(reference "#PWR092")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 111.76 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12987601-9570-4cad-a754-8b67d1a7d0f7")
-		(property "Reference" "#PWR084"
-			(at 111.76 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V pyro sw"
-			(at 111.76 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 111.76 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2fa4f0f8-5809-4288-b511-a0e169972f76")
-		)
-		(instances
-			(project "flight computer"
-				(path "/946c231f-bcc7-4274-a50d-157c7247b8f7"
-					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -6028,7 +5872,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 234.95 26.67 0)
+		(at 214.63 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6039,7 +5883,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e6e8c21-d15a-44c0-922b-7462f7d377de")
 		(property "Reference" "#PWR094"
-			(at 234.95 30.48 0)
+			(at 214.63 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6050,7 +5894,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 234.95 21.59 0)
+			(at 214.63 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6060,7 +5904,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 26.67 0)
+			(at 214.63 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6071,7 +5915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 26.67 0)
+			(at 214.63 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6082,7 +5926,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 234.95 26.67 0)
+			(at 214.63 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6106,7 +5950,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 111.76 106.68 0)
+		(at 111.76 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6115,9 +5959,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3fd99519-8922-4729-ab28-e7aa6515ad9d")
-		(property "Reference" "#PWR087"
-			(at 111.76 110.49 0)
+		(uuid "416cb089-af28-43b8-a00c-47d479a2a1cf")
+		(property "Reference" "#PWR047"
+			(at 111.76 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6127,8 +5971,8 @@
 				)
 			)
 		)
-		(property "Value" "+12V pyro sw"
-			(at 111.76 101.6 0)
+		(property "Value" "+12V pyro"
+			(at 111.76 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6138,7 +5982,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 106.68 0)
+			(at 111.76 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6149,7 +5993,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 106.68 0)
+			(at 111.76 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6160,7 +6004,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 111.76 106.68 0)
+			(at 111.76 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6171,12 +6015,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b29a8d6-331b-4783-9d67-c2bc8d3f6ad7")
+			(uuid "e979f7dd-7cc7-4db8-a7a3-d7f688a94603")
 		)
 		(instances
 			(project "flight computer"
 				(path "/946c231f-bcc7-4274-a50d-157c7247b8f7"
-					(reference "#PWR087")
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 111.76 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "450c07e3-d710-4412-8aa4-9dfab8c64ec8")
+		(property "Reference" "#PWR028"
+			(at 111.76 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V pyro"
+			(at 111.76 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 111.76 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "10bfe5de-3062-40f3-a1cd-4260785506eb")
+		)
+		(instances
+			(project "flight computer"
+				(path "/946c231f-bcc7-4274-a50d-157c7247b8f7"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6507,6 +6429,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 234.95 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5092387e-48f5-4a01-96df-453801b27f01")
+		(property "Reference" "#PWR077"
+			(at 234.95 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 234.95 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 234.95 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7de374e2-28cd-4af8-8ead-823a71677837")
+		)
+		(instances
+			(project "flight computer"
+				(path "/946c231f-bcc7-4274-a50d-157c7247b8f7"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 243.84 49.53 0)
 		(unit 1)
@@ -6661,6 +6661,84 @@
 			(project "flight computer"
 				(path "/946c231f-bcc7-4274-a50d-157c7247b8f7"
 					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 62.23 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57bf654b-57db-47e2-b8a0-215eda5bd1de")
+		(property "Reference" "#PWR076"
+			(at 62.23 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 62.23 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 62.23 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6f316b8-fd8e-4e43-881c-c30c089bd504")
+		)
+		(instances
+			(project "flight computer"
+				(path "/946c231f-bcc7-4274-a50d-157c7247b8f7"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -6992,84 +7070,6 @@
 			(project "flight computer"
 				(path "/946c231f-bcc7-4274-a50d-157c7247b8f7"
 					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 62.23 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66b71c7f-30db-4b52-8ef3-e7360f894a27")
-		(property "Reference" "#PWR080"
-			(at 62.23 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V I/O"
-			(at 62.23 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 62.23 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4fcf0dc6-778f-4ccc-b44b-16b1df01fd8b")
-		)
-		(instances
-			(project "flight computer"
-				(path "/946c231f-bcc7-4274-a50d-157c7247b8f7"
-					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -7483,6 +7483,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 30.48 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7175739e-165c-48ef-b520-bfbfa389dd54")
+		(property "Reference" "#PWR075"
+			(at 30.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 30.48 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 30.48 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "628a3f43-7c5c-474c-b516-42b200914dfa")
+		)
+		(instances
+			(project "flight computer"
+				(path "/946c231f-bcc7-4274-a50d-157c7247b8f7"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Samacsys:5452257")
 		(at 116.84 86.36 0)
 		(unit 1)
@@ -7653,7 +7731,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 30.48 143.51 0)
+		(at 111.76 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7662,9 +7740,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7df7023e-7dd1-4f72-a328-8b3e884bc937")
-		(property "Reference" "#PWR077"
-			(at 30.48 147.32 0)
+		(uuid "7ddca92d-ecb2-44e7-aa88-1bc24b69c6f6")
+		(property "Reference" "#PWR048"
+			(at 111.76 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7674,8 +7752,8 @@
 				)
 			)
 		)
-		(property "Value" "+12V I/O"
-			(at 30.48 138.43 0)
+		(property "Value" "+12V pyro"
+			(at 111.76 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7685,7 +7763,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 143.51 0)
+			(at 111.76 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7696,7 +7774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 143.51 0)
+			(at 111.76 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7707,7 +7785,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 30.48 143.51 0)
+			(at 111.76 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7718,12 +7796,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "85575850-0e1b-4961-a18b-011ad25282da")
+			(uuid "47da3909-b3a2-4b81-81a8-6d00526886ec")
 		)
 		(instances
 			(project "flight computer"
 				(path "/946c231f-bcc7-4274-a50d-157c7247b8f7"
-					(reference "#PWR077")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -8001,6 +8079,84 @@
 			(project "flight computer"
 				(path "/946c231f-bcc7-4274-a50d-157c7247b8f7"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 111.76 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "860723c3-ec39-4327-9c71-a2ab229965c8")
+		(property "Reference" "#PWR074"
+			(at 111.76 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V pyro"
+			(at 111.76 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 111.76 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83eb8b8e-9606-49ad-979d-6b24c3db9670")
+		)
+		(instances
+			(project "flight computer"
+				(path "/946c231f-bcc7-4274-a50d-157c7247b8f7"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -8916,84 +9072,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 111.76 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aeaa51d2-b5ce-4a6b-ba86-abe80b21b273")
-		(property "Reference" "#PWR086"
-			(at 111.76 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V pyro sw"
-			(at 111.76 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 111.76 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "58ddf349-d7fe-49b0-a488-fa39ed47b44e")
-		)
-		(instances
-			(project "flight computer"
-				(path "/946c231f-bcc7-4274-a50d-157c7247b8f7"
-					(reference "#PWR086")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse")
 		(at 111.76 110.49 0)
 		(unit 1)
@@ -9857,84 +9935,6 @@
 			(project "flight computer"
 				(path "/946c231f-bcc7-4274-a50d-157c7247b8f7"
 					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 111.76 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9a8d46f-9abe-4ccd-b19b-db77411502ec")
-		(property "Reference" "#PWR085"
-			(at 111.76 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V pyro sw"
-			(at 111.76 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 111.76 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cf785a8b-fd02-49bd-b796-3fa20e3ea608")
-		)
-		(instances
-			(project "flight computer"
-				(path "/946c231f-bcc7-4274-a50d-157c7247b8f7"
-					(reference "#PWR085")
 					(unit 1)
 				)
 			)
