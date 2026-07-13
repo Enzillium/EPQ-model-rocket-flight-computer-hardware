@@ -3659,7 +3659,7 @@
 		(uuid "fe81d8da-8ab6-40d4-b9d5-cf5fa7383ce5")
 	)
 	(no_connect
-		(at 41.91 101.6)
+		(at 49.53 99.06)
 		(uuid "1fd13b8f-a5ba-4f08-92ee-fd7076063606")
 	)
 	(no_connect
@@ -3671,7 +3671,7 @@
 		(uuid "696da01d-e4a0-4b7d-90e7-42cc62164c1c")
 	)
 	(no_connect
-		(at 46.99 116.84)
+		(at 54.61 114.3)
 		(uuid "6aefc81f-1738-492d-911a-8f84483c8079")
 	)
 	(wire
@@ -3753,16 +3753,6 @@
 			(type default)
 		)
 		(uuid "0df282aa-cce3-4cd5-b5e4-59a763ef4e97")
-	)
-	(wire
-		(pts
-			(xy 41.91 119.38) (xy 46.99 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f14cd58-5a3d-40f3-87d6-1fa600b68f65")
 	)
 	(wire
 		(pts
@@ -3896,6 +3886,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 99.06) (xy 80.01 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2946a6de-d313-4e2d-951a-6d6c88611aa6")
+	)
+	(wire
+		(pts
 			(xy 118.11 29.21) (xy 129.54 29.21)
 		)
 		(stroke
@@ -3933,6 +3933,16 @@
 			(type default)
 		)
 		(uuid "327f21b4-0dd1-469b-b80e-a19af5524773")
+	)
+	(wire
+		(pts
+			(xy 78.74 69.85) (xy 80.01 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "417f3f1c-c6ba-476c-b2fd-69d462a8da92")
 	)
 	(wire
 		(pts
@@ -4023,16 +4033,6 @@
 			(type default)
 		)
 		(uuid "56f294c3-2e71-407c-9667-a77e78732083")
-	)
-	(wire
-		(pts
-			(xy 53.34 74.93) (xy 46.99 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5aef8b69-16c3-4cd8-894e-4beccec1394b")
 	)
 	(wire
 		(pts
@@ -4133,16 +4133,6 @@
 			(type default)
 		)
 		(uuid "79da06b9-f1b2-4d5c-a25c-ff6c1dded6de")
-	)
-	(wire
-		(pts
-			(xy 54.61 99.06) (xy 80.01 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e9107c5-ec5e-4f1d-b316-493934d45ad8")
 	)
 	(polyline
 		(pts
@@ -4486,7 +4476,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 69.85) (xy 80.01 69.85)
+			(xy 68.58 69.85) (xy 71.12 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4566,16 +4556,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 119.38) (xy 41.91 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1408d69-43ea-4ffe-9928-aaa2111de323")
-	)
-	(wire
-		(pts
 			(xy 234.95 66.04) (xy 224.79 66.04)
 		)
 		(stroke
@@ -4583,16 +4563,6 @@
 			(type default)
 		)
 		(uuid "f49843a2-c787-4a04-a7ad-96c6b5ecbf39")
-	)
-	(wire
-		(pts
-			(xy 46.99 99.06) (xy 46.99 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5ff69d1-1e2e-49fc-8bb5-4808f38d5382")
 	)
 	(wire
 		(pts
@@ -4685,7 +4655,7 @@
 		(uuid "074ffa47-ae9b-4804-bf1c-ff2f0957556d")
 	)
 	(label "ADXL375 CS"
-		(at 143.51 123.19 0)
+		(at -64.77 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4725,7 +4695,7 @@
 		(uuid "18ca30da-fd06-4a11-b6e7-60a67bee14c6")
 	)
 	(label "pyro 3 gate"
-		(at 138.43 96.52 0)
+		(at -69.85 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4735,7 +4705,7 @@
 		(uuid "1b1ca3bd-0b37-42b8-a903-6a9bc7f7865b")
 	)
 	(label "servo PWM 4"
-		(at 130.81 63.5 0)
+		(at -46.99 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4745,7 +4715,7 @@
 		(uuid "1b480833-de77-4285-819a-c3d41dfc5790")
 	)
 	(label "BNO086 int"
-		(at 130.81 137.16 0)
+		(at -27.94 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4755,7 +4725,7 @@
 		(uuid "2032721e-e92a-4ec1-8c7b-1b6b829bfb7f")
 	)
 	(label "MISO"
-		(at 130.81 129.54 0)
+		(at -27.94 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4774,18 +4744,18 @@
 		)
 		(uuid "2be590e4-bbfe-4e7d-b6ff-dae16bf93287")
 	)
-	(label "SD CLK"
-		(at 130.81 147.32 0)
+	(label "SD DAT1"
+		(at -46.99 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "2fdd0bc0-b3f1-4fb6-addf-b470e8d46f56")
+		(uuid "32edec29-dae4-4d84-8aae-82b8accaa88c")
 	)
 	(label "pyro 2 continuity"
-		(at 80.01 139.7 180)
+		(at -7.62 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4794,8 +4764,18 @@
 		)
 		(uuid "33a84547-0828-4965-b14e-25a8d13c5a9d")
 	)
+	(label "SD DAT2"
+		(at -68.58 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3549b487-2dc1-453c-8ade-d9b9c1e1fc66")
+	)
 	(label "BTM9011EP IS"
-		(at 80.01 154.94 180)
+		(at -7.62 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4815,7 +4795,7 @@
 		(uuid "3a829a22-25ff-45f0-be68-205e2755d662")
 	)
 	(label "pyro 4 gate"
-		(at 138.43 99.06 0)
+		(at -69.85 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4825,7 +4805,7 @@
 		(uuid "3cddcd93-be10-4688-8353-95eb06a6b1d0")
 	)
 	(label "SX1262 CS"
-		(at 143.51 114.3 0)
+		(at -64.77 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4835,7 +4815,7 @@
 		(uuid "41a3e4d1-1ec1-46c3-bbbc-6ac14f8aefa9")
 	)
 	(label "BMP581 CS"
-		(at 143.51 127 0)
+		(at -64.77 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4845,7 +4825,7 @@
 		(uuid "46c70767-19ca-4698-a01c-7efd3589a7e4")
 	)
 	(label "SX1262 busy"
-		(at 143.51 116.84 0)
+		(at -64.77 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4855,7 +4835,7 @@
 		(uuid "48e02fc9-e204-4d81-adaa-dbdb2d0d0dac")
 	)
 	(label "SX1262 rf switch"
-		(at 143.51 109.22 0)
+		(at -64.77 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4865,7 +4845,7 @@
 		(uuid "4c43e7c6-8761-4795-ba00-fbb75a3cf83e")
 	)
 	(label "BTM9011EP CS"
-		(at 80.01 152.4 180)
+		(at -50.8 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4874,8 +4854,18 @@
 		)
 		(uuid "4c9621c5-6960-471f-9117-045960d2b3c9")
 	)
+	(label "SD CMD"
+		(at -68.58 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d1f7854-1494-4827-9e9c-52de5b789cc1")
+	)
 	(label "SX1262 reset"
-		(at 143.51 111.76 0)
+		(at -64.77 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4885,7 +4875,7 @@
 		(uuid "4fd3e873-49c5-4545-b566-8ea696be651c")
 	)
 	(label "BNO086 CS"
-		(at 130.81 132.08 0)
+		(at -27.94 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4893,6 +4883,16 @@
 			(justify left bottom)
 		)
 		(uuid "5013776e-d867-4665-b390-eefbd15a6390")
+	)
+	(label "SD DAT0"
+		(at -46.99 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "546029f8-067f-4fa6-8da1-5c6fd71df2ee")
 	)
 	(label "QSPI_SD2"
 		(at 63.5 109.22 0)
@@ -4905,7 +4905,7 @@
 		(uuid "591ce607-7f0e-4026-8308-3179ae0d96c3")
 	)
 	(label "SCK"
-		(at 130.81 127 0)
+		(at -27.94 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4925,7 +4925,7 @@
 		(uuid "5f7ef1ed-e4dc-49d7-96dc-821ec5df8374")
 	)
 	(label "MAX M10S reset"
-		(at 138.43 76.2 0)
+		(at -102.87 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4935,7 +4935,7 @@
 		(uuid "600ff111-3d8a-4bdf-a3fb-18c1ab7f60d4")
 	)
 	(label "MAX M10S boot"
-		(at 138.43 78.74 0)
+		(at -102.87 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4954,6 +4954,16 @@
 		)
 		(uuid "68ed7f34-2611-4332-86fc-a495c13bcc38")
 	)
+	(label "pin out 1"
+		(at -27.94 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69d5ede9-3f4b-4c2c-acec-540ca72becc3")
+	)
 	(label "MCU_DN"
 		(at 80.01 87.63 180)
 		(effects
@@ -4965,7 +4975,7 @@
 		(uuid "6aa24a37-36f1-45dd-9bdc-aad399051a23")
 	)
 	(label "MAX M10S int"
-		(at 138.43 73.66 0)
+		(at -107.95 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4974,8 +4984,18 @@
 		)
 		(uuid "6aec122c-e2f5-41a4-b66c-e5080e6e37e4")
 	)
+	(label "SD CLK"
+		(at -46.99 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "792c8e7c-d3c9-4db3-b1d1-e977745d084a")
+	)
 	(label "pyro 3 continuity"
-		(at 80.01 142.24 180)
+		(at -7.62 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4995,7 +5015,7 @@
 		(uuid "7f3b07b4-80a8-4fdc-806e-0810b2f62d94")
 	)
 	(label "pyro 2 gate"
-		(at 138.43 93.98 0)
+		(at -69.85 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5005,7 +5025,7 @@
 		(uuid "8083c9c2-0f33-423d-92df-f3212a862662")
 	)
 	(label "SX1262 int"
-		(at 143.51 119.38 0)
+		(at -64.77 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5015,7 +5035,7 @@
 		(uuid "82515b85-f9fe-493e-b431-62075c0cb9c4")
 	)
 	(label "motor in a"
-		(at 130.81 66.04 0)
+		(at -66.04 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5025,7 +5045,7 @@
 		(uuid "8321bf44-d1c0-4aef-ac41-6844a5eedf6b")
 	)
 	(label "pyro 1 gate"
-		(at 138.43 91.44 0)
+		(at -69.85 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5055,7 +5075,7 @@
 		(uuid "8de2d5f3-d013-4716-b67a-cda15add7041")
 	)
 	(label "MOSI"
-		(at 130.81 134.62 0)
+		(at -27.94 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5085,7 +5105,7 @@
 		(uuid "975f0588-02b3-4d2d-827f-6ddc4a383aa5")
 	)
 	(label "MAX M10S TX"
-		(at 138.43 66.04 0)
+		(at -68.58 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5095,7 +5115,7 @@
 		(uuid "9b366d73-75f3-425e-bbd2-a3363c65c6c9")
 	)
 	(label "MAX M10S timepulse"
-		(at 138.43 71.12 0)
+		(at -68.58 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5105,7 +5125,7 @@
 		(uuid "9c0437b1-23bf-4fd5-b61b-0858d6cae8df")
 	)
 	(label "MAX M10S RX"
-		(at 138.43 68.58 0)
+		(at -68.58 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5124,6 +5144,16 @@
 		)
 		(uuid "9ca7a772-2bf5-44e2-8d3f-c25b8b1908c0")
 	)
+	(label "SD DAT3"
+		(at -68.58 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4e84dba-9226-4756-964b-639a8164594f")
+	)
 	(label "XOUT"
 		(at 186.69 100.33 180)
 		(effects
@@ -5135,7 +5165,7 @@
 		(uuid "a7f2b2fa-90c5-4c13-ad44-0ebed99146ac")
 	)
 	(label "servo PWM 3"
-		(at 130.81 60.96 0)
+		(at -46.99 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5155,7 +5185,7 @@
 		(uuid "a9de447f-59da-4a7a-a6dd-9331222346d7")
 	)
 	(label "motor in b"
-		(at 130.81 68.58 0)
+		(at -66.04 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5164,18 +5194,8 @@
 		)
 		(uuid "ac22b70b-39f5-4dcd-86a7-6f349641b404")
 	)
-	(label "SD DAT0"
-		(at 130.81 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b09f2b1f-8e18-4e2b-bd51-39dbf95c22b4")
-	)
 	(label "LED controller"
-		(at 59.69 154.94 180)
+		(at -33.02 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5185,7 +5205,7 @@
 		(uuid "b2887c33-2546-4b53-b1ec-7b12f6035a1d")
 	)
 	(label "servo PWM 2"
-		(at 130.81 58.42 0)
+		(at -46.99 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5194,8 +5214,18 @@
 		)
 		(uuid "bc8b779b-0684-4b81-9639-65a30fd59600")
 	)
+	(label "pin out 2"
+		(at -27.94 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bef81e6d-d250-459a-bba5-15e6c01e8b43")
+	)
 	(label "pyro 1 continuity"
-		(at 80.01 137.16 180)
+		(at -7.62 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5205,7 +5235,7 @@
 		(uuid "c3bcc6cb-a7a7-4be3-845d-b0f6413008a6")
 	)
 	(label "servo PWM 1"
-		(at 130.81 55.88 0)
+		(at -46.99 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5224,18 +5254,8 @@
 		)
 		(uuid "d1bda215-e063-4507-b388-3532bf9d4c7b")
 	)
-	(label "SD DAT2"
-		(at 130.81 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d3cfafa8-85b0-488c-b560-a40a22842f0e")
-	)
 	(label "BNO086 wake"
-		(at 130.81 139.7 0)
+		(at -27.94 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5243,16 +5263,6 @@
 			(justify left bottom)
 		)
 		(uuid "d9fc8656-0b2d-4c7d-9223-17579bcfbabe")
-	)
-	(label "pin out 1"
-		(at 130.81 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "da4d93f0-782d-4d9d-b2b4-89fee3ebd17f")
 	)
 	(label "QSPI_SD2"
 		(at 168.91 63.5 0)
@@ -5264,26 +5274,6 @@
 		)
 		(uuid "dcd072f1-56eb-4aae-93fe-b2c6181203e9")
 	)
-	(label "SD CMD"
-		(at 130.81 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dcf712f4-5a7b-4461-b003-27b33d118b1a")
-	)
-	(label "SD DAT1"
-		(at 130.81 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e0ed0140-e75c-49a2-8bd5-6c07a8aa8e95")
-	)
 	(label "QSPI_SS"
 		(at 63.5 99.06 0)
 		(effects
@@ -5293,16 +5283,6 @@
 			(justify left bottom)
 		)
 		(uuid "ec2d1db8-c881-41e9-9a2f-e000fc1c1f0d")
-	)
-	(label "pin out 2"
-		(at 130.81 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f2b57723-a0cf-43e9-b1f7-dd0761050089")
 	)
 	(label "QSPI_SD1"
 		(at 168.91 60.96 0)
@@ -5314,18 +5294,8 @@
 		)
 		(uuid "f9f7531f-0e40-4ad6-b109-02f0ea2f87c2")
 	)
-	(label "SD DAT3"
-		(at 130.81 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fa535842-f6ff-47e1-95db-b1522a0c1431")
-	)
 	(label "power signal"
-		(at 59.69 152.4 180)
+		(at -7.62 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5335,7 +5305,7 @@
 		(uuid "ff770805-6e41-48ef-b4fc-c4a5a0920c8e")
 	)
 	(label "pyro 4 continuity"
-		(at 80.01 144.78 180)
+		(at -7.62 156.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6248,6 +6218,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 74.93 69.85 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e6a055e-4ead-44d3-b976-fa202795559f")
+		(property "Reference" "R11"
+			(at 74.93 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 74.93 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 74.93 71.628 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "42812562-4f76-4305-9a90-81d2fba08336")
+		)
+		(pin "1"
+			(uuid "02432d36-f6a7-4d8a-b13a-753377ad066f")
+		)
+		(instances
+			(project "flight computer"
+				(path "/bfc6d187-34e5-4475-ae17-354b2103d42a"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 74.93 49.53 0)
 		(unit 1)
@@ -6320,89 +6371,6 @@
 			(project "flight computer"
 				(path "/bfc6d187-34e5-4475-ae17-354b2103d42a"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 46.99 78.74 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f7fb205-871c-4c7e-95bc-a602736f6d02")
-		(property "Reference" "R1"
-			(at 49.53 77.4699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 49.53 80.0099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 48.768 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 46.99 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a93fc098-d16e-49ea-86d2-46985db76343")
-		)
-		(pin "1"
-			(uuid "cf1175af-b36e-41b2-87fb-df349ee48021")
-		)
-		(instances
-			(project "flight computer"
-				(path "/bfc6d187-34e5-4475-ae17-354b2103d42a"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6568,7 +6536,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 82.55 0)
+		(at 53.34 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6579,7 +6547,7 @@
 		(fields_autoplaced yes)
 		(uuid "5449c173-514a-4333-8ab2-2295948caa62")
 		(property "Reference" "#PWR04"
-			(at 46.99 88.9 0)
+			(at 53.34 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6590,7 +6558,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 87.63 0)
+			(at 53.34 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6600,7 +6568,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 82.55 0)
+			(at 53.34 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6611,7 +6579,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 82.55 0)
+			(at 53.34 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6622,7 +6590,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 82.55 0)
+			(at 53.34 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6740,7 +6708,7 @@
 		(fields_autoplaced yes)
 		(uuid "66b88677-631d-41e1-916d-880fcd366788")
 		(property "Reference" "Y1"
-			(at 227.33 88.8298 90)
+			(at 218.44 88.8298 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6749,8 +6717,8 @@
 				)
 			)
 		)
-		(property "Value" "ABM8G-12.000MHZ-18-D2Y-T"
-			(at 227.33 91.3698 90)
+		(property "Value" "ABM8-272-T3"
+			(at 218.44 91.3698 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6759,7 +6727,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Snapeda:CRYSTAL_ABM8G_ABR-L"
+		(property "Footprint" "Samacsys:ABM8272T3"
 			(at 212.1602 121.92 0)
 			(hide yes)
 			(show_name yes)
@@ -6926,7 +6894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-80-1EP_10x10mm_P0.4mm_EP3.4x3.4mm_ThermalVias"
+		(property "Footprint" "Package_DFN_QFN:QFN-80-1EP_10x10mm_P0.4mm_EP3.4x3.4mm"
 			(at 105.41 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -8365,8 +8333,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 46.99 119.38 0)
+		(lib_id "Device:R")
+		(at 49.53 118.11 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8375,30 +8344,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b9806bda-4db6-47f6-9653-d2e873b8e800")
-		(property "Reference" "#PWR05"
-			(at 46.99 125.73 0)
-			(hide yes)
+		(uuid "aebe6956-613a-4fc0-a1bc-8c417f9e94c4")
+		(property "Reference" "R7"
+			(at 46.99 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "GND"
-			(at 46.99 124.46 0)
+		(property "Value" "1k"
+			(at 46.99 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 46.99 119.38 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 47.752 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8409,7 +8379,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 119.38 0)
+			(at 49.53 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "66f77d11-0723-4bcd-9180-73bc1a9699cc")
+		)
+		(pin "1"
+			(uuid "e30abc76-8712-4a59-aa43-b86575600de6")
+		)
+		(instances
+			(project "flight computer"
+				(path "/bfc6d187-34e5-4475-ae17-354b2103d42a"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9806bda-4db6-47f6-9653-d2e873b8e800")
+		(property "Reference" "#PWR05"
+			(at 49.53 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8420,7 +8471,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 119.38 0)
+			(at 49.53 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9254,7 +9305,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys:PTS647SM38SMTR2_LFS")
-		(at 41.91 116.84 90)
+		(at 49.53 114.3 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9265,7 +9316,7 @@
 		(fields_autoplaced yes)
 		(uuid "ddac81b4-3ba3-4762-9be1-8c563da5f07b")
 		(property "Reference" "S1"
-			(at 40.64 107.9499 90)
+			(at 48.26 105.4099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9276,7 +9327,7 @@
 			)
 		)
 		(property "Value" "PTS647SM38SMTR2_LFS"
-			(at 40.64 110.4899 90)
+			(at 48.26 107.9499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9287,7 +9338,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:PTS647SM38SMTR2LFS"
-			(at 29.21 109.22 0)
+			(at 36.83 106.68 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -9298,7 +9349,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ckswitches.com/media/2567/pts647.pdf"
-			(at 31.75 109.22 0)
+			(at 39.37 106.68 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -9309,7 +9360,7 @@
 			)
 		)
 		(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount 0.05A 12V"
-			(at 34.29 109.22 0)
+			(at 41.91 106.68 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -9320,7 +9371,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 438.1 104.14 0)
+			(at 445.72 101.6 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -9332,7 +9383,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "LITTELFUSE"
-			(at 36.83 109.22 0)
+			(at 44.45 106.68 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -9343,7 +9394,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PTS647SM38SMTR2 LFS"
-			(at 39.37 109.22 0)
+			(at 46.99 106.68 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -9354,7 +9405,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 738.1 104.14 0)
+			(at 745.72 101.6 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -9366,7 +9417,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 838.1 104.14 0)
+			(at 845.72 101.6 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -9378,7 +9429,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 938.1 104.14 0)
+			(at 945.72 101.6 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -9390,7 +9441,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 1038.1 104.14 0)
+			(at 1045.72 101.6 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -9495,86 +9546,6 @@
 			(project "flight computer"
 				(path "/bfc6d187-34e5-4475-ae17-354b2103d42a"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 50.8 99.06 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df7d5266-0380-40b1-8852-d626cf4d2b9c")
-		(property "Reference" "R2"
-			(at 50.8 92.71 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 50.8 95.25 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 50.8 97.282 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 50.8 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "58ab9b58-52a0-4b1a-aafd-c2dd5ac0cbfc")
-		)
-		(pin "1"
-			(uuid "d813eb1f-e78e-4502-bd83-d47c702d18ca")
-		)
-		(instances
-			(project "flight computer"
-				(path "/bfc6d187-34e5-4475-ae17-354b2103d42a"
-					(reference "R2")
 					(unit 1)
 				)
 			)

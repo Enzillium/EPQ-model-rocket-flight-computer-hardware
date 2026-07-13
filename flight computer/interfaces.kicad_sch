@@ -2855,6 +2855,10 @@
 		(at 165.1 54.61)
 		(uuid "a22ed0fc-4356-4c83-9e87-149042febcd6")
 	)
+	(no_connect
+		(at 257.81 48.26)
+		(uuid "de71883d-acb1-4e3f-9209-920166b0e1ff")
+	)
 	(polyline
 		(pts
 			(xy 223.52 77.47) (xy 172.72 77.47)
@@ -3406,7 +3410,7 @@
 		(uuid "fe5503a1-e218-42f4-93e7-8dac8916d7b5")
 	)
 	(label "pin out 2"
-		(at 186.69 68.58 180)
+		(at 194.31 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3466,7 +3470,7 @@
 		(uuid "b361a125-cd60-45cd-9cf7-8bfea6ba4024")
 	)
 	(label "pin out 1"
-		(at 186.69 66.04 180)
+		(at 194.31 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4453,166 +4457,6 @@
 			(project "flight computer"
 				(path "/3c072741-617e-4bed-867d-b839f905ce15"
 					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 190.5 66.04 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "697abf3a-e3b3-4544-a239-0ced034be942")
-		(property "Reference" "R20"
-			(at 190.5 59.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 190.5 62.23 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 190.5 67.818 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 190.5 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c07f5369-241a-46af-90f4-c615fe9fe16a")
-		)
-		(pin "2"
-			(uuid "da349cfb-f1b7-4367-86cf-71aeda3daba4")
-		)
-		(instances
-			(project "flight computer"
-				(path "/3c072741-617e-4bed-867d-b839f905ce15"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 190.5 68.58 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6fa78a4b-51ab-402b-9c8f-533328a3de0d")
-		(property "Reference" "R21"
-			(at 190.5 72.39 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 190.5 74.93 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 190.5 70.358 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 190.5 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f47387f5-6eba-4074-9514-9e293f9ccbcb")
-		)
-		(pin "2"
-			(uuid "44980722-daef-4d20-a24e-7e0f083f7999")
-		)
-		(instances
-			(project "flight computer"
-				(path "/3c072741-617e-4bed-867d-b839f905ce15"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -6445,84 +6289,6 @@
 			(project "flight computer"
 				(path "/3c072741-617e-4bed-867d-b839f905ce15"
 					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 257.81 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff5cb733-6e5c-46b5-a9fe-6afbddbe4651")
-		(property "Reference" "#PWR072"
-			(at 257.81 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 257.81 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "acf8eb91-8969-40f4-8eca-26f9c4380ff4")
-		)
-		(instances
-			(project "flight computer"
-				(path "/3c072741-617e-4bed-867d-b839f905ce15"
-					(reference "#PWR072")
 					(unit 1)
 				)
 			)
