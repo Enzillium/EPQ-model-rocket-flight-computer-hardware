@@ -165,6 +165,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_TVS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_TVS"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Bidirectional transient-voltage-suppression diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode TVS thyrector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_TVS_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_TVS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -3858,12 +4024,6 @@
 		(uuid "441d9942-3d3e-42a6-82c9-9e2195a0fda3")
 	)
 	(junction
-		(at 190.5 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a03e524-643c-4df3-8994-c37fdb867cb0")
-	)
-	(junction
 		(at 124.46 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3874,12 +4034,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "640cd584-3449-498c-a748-8b5fb25c504b")
-	)
-	(junction
-		(at 190.5 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67ad30b1-e6b4-4654-9371-a1dcd9cc6b4e")
 	)
 	(junction
 		(at 21.59 137.16)
@@ -3966,6 +4120,12 @@
 		(uuid "964b5d58-9e95-4abf-9fee-f293a38b7440")
 	)
 	(junction
+		(at 194.31 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99a95e8b-5ff0-4318-be7d-c70f13dc077d")
+	)
+	(junction
 		(at 149.86 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4000,6 +4160,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccb8b438-4859-48af-a039-84fc02d9ace4")
+	)
+	(junction
+		(at 194.31 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf5dbb96-4509-4e97-b0fb-128d3d1492c2")
 	)
 	(junction
 		(at 109.22 30.48)
@@ -4439,6 +4605,16 @@
 		)
 		(uuid "469ecdf8-5340-474c-83f6-acc570e3cecc")
 	)
+	(wire
+		(pts
+			(xy 194.31 104.14) (xy 194.31 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b98d91f-beef-4d1d-9088-5d74842c172d")
+	)
 	(polyline
 		(pts
 			(xy 142.24 76.2) (xy 252.73 76.2)
@@ -4531,6 +4707,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 93.98) (xy 194.31 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6723dc55-c618-499d-b090-b12a939e8f6a")
+	)
+	(wire
+		(pts
 			(xy 248.92 45.72) (xy 233.68 45.72)
 		)
 		(stroke
@@ -4581,7 +4767,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 106.68) (xy 214.63 106.68)
+			(xy 176.53 106.68) (xy 194.31 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4608,6 +4794,16 @@
 			(type default)
 		)
 		(uuid "7297f348-e78d-4f3e-b41d-be0139ab7e73")
+	)
+	(wire
+		(pts
+			(xy 194.31 93.98) (xy 214.63 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "768f964c-fb79-4fbc-a745-16d3cc895649")
 	)
 	(polyline
 		(pts
@@ -4661,7 +4857,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 93.98) (xy 190.5 93.98)
+			(xy 176.53 93.98) (xy 194.31 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4698,6 +4894,16 @@
 			(type default)
 		)
 		(uuid "8c3f70e9-9960-49ac-bd9a-aec7e19ca5b8")
+	)
+	(wire
+		(pts
+			(xy 194.31 106.68) (xy 214.63 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e9c9772-20cb-4441-9bd0-804e71c89722")
 	)
 	(wire
 		(pts
@@ -4819,16 +5025,6 @@
 		)
 		(uuid "a81b32c1-ccd3-4717-9265-f218bf78101d")
 	)
-	(wire
-		(pts
-			(xy 190.5 93.98) (xy 214.63 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a81ca090-c885-4719-bfa1-185788829980")
-	)
 	(polyline
 		(pts
 			(xy 12.7 76.2) (xy 142.24 76.2)
@@ -4878,16 +5074,6 @@
 			(type default)
 		)
 		(uuid "aeefcfe1-2302-47d8-afdc-15ed5372c3a6")
-	)
-	(wire
-		(pts
-			(xy 176.53 106.68) (xy 190.5 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b01ede75-33ac-47a3-a928-a0a648fb344e")
 	)
 	(polyline
 		(pts
@@ -7336,8 +7522,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Snapeda:PESD0402-140")
-		(at 190.5 106.68 90)
+		(lib_id "Device:D_TVS")
+		(at 194.31 100.33 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7346,33 +7532,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "63400279-0648-4050-81fa-5f3b004ddbd5")
-		(property "Reference" "CR3"
-			(at 194.31 99.0599 90)
+		(uuid "5be5e2a0-3d88-46b9-a658-34c00bc2c8ed")
+		(property "Reference" "D1"
+			(at 196.85 99.0599 90)
 			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PESD0402-140"
-			(at 194.31 101.5999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
-			(at 194.31 101.5999 90)
-			(hide yes)
-			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -7381,10 +7544,9 @@
 				(justify right)
 			)
 		)
-		(property "Datasheet" "PESD0402-140"
-			(at 194.31 104.1399 90)
-			(hide yes)
-			(show_name yes)
+		(property "Value" "D_TVS"
+			(at 196.85 101.5999 90)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -7393,10 +7555,32 @@
 				(justify right)
 			)
 		)
-		(property "Description" ""
-			(at 190.5 106.68 0)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 194.31 100.33 0)
 			(hide yes)
-			(show_name yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 194.31 100.33 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -7405,15 +7589,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "23ce7605-75b5-4b9e-af34-5fd05277c50d")
+			(uuid "12160332-c457-4270-bdb7-8aa342f38cfa")
 		)
 		(pin "2"
-			(uuid "b9c3f4d9-d94c-413d-a12c-1d6b66a78e3a")
+			(uuid "f3399689-1b0e-46bd-9314-b4bdab9c2c46")
 		)
 		(instances
 			(project "flight computer"
 				(path "/bdd95a45-8144-4be4-bdb0-261aee7edef2"
-					(reference "CR3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
