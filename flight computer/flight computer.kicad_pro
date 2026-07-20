@@ -824,7 +824,7 @@
         "uuid": "bdd95a45-8144-4be4-bdb0-261aee7edef2"
       }
     ],
-    "used_designators": "Y2,D1",
+    "used_designators": "Y2,#PWR119,D1-2",
     "variants": []
   },
   "sheets": [

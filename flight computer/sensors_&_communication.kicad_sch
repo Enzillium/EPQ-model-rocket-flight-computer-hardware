@@ -2912,245 +2912,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Snapeda:PESD0402-140"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "CR"
-				(at 6.604 4.572 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "PESD0402-140"
-				(at 6.35 -3.81 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "Snapeda:PESD0402-140_LTF-L"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "PESD0402-140"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "PESD0402-140"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "PESD0402-140_LTF PESD0402-140_LTF-M PESD0402-140_LTF-L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PESD0402-140_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.905) (xy 3.81 -1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.905) (xy 6.35 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 3.81 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 8.89 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -1.905) (xy 6.35 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 1.905) (xy 8.89 -1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 0) (xy 10.16 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -1.905) (xy 6.35 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Snapeda:SMA-J-P-H-ST-EM1"
 			(pin_names
 				(offset 1.016)
@@ -4024,22 +3785,16 @@
 		(uuid "441d9942-3d3e-42a6-82c9-9e2195a0fda3")
 	)
 	(junction
+		(at 50.8 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51abfd67-c9d2-4f2d-9a8f-78e4c417a00f")
+	)
+	(junction
 		(at 124.46 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d533265-80df-4400-beaf-a8e37f658d6e")
-	)
-	(junction
-		(at 25.4 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "640cd584-3449-498c-a748-8b5fb25c504b")
-	)
-	(junction
-		(at 21.59 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68c33d86-6403-41e3-95cc-2c49f2e8ab12")
 	)
 	(junction
 		(at 50.8 138.43)
@@ -4136,6 +3891,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b088f9f8-b79c-4471-814c-437476d32b48")
+	)
+	(junction
+		(at 39.37 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2d85278-ef01-4384-966e-217dbb2b1601")
 	)
 	(junction
 		(at 24.13 97.79)
@@ -4447,16 +4208,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 137.16) (xy 25.4 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2318f2f6-b880-480f-b377-f2f2177f3064")
-	)
-	(wire
-		(pts
 			(xy 77.47 97.79) (xy 77.47 95.25)
 		)
 		(stroke
@@ -4524,16 +4275,6 @@
 			(type default)
 		)
 		(uuid "34cb15c8-b8ff-4b54-8c89-12cf6c3ab5c1")
-	)
-	(wire
-		(pts
-			(xy 17.78 137.16) (xy 21.59 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38031cac-b8a6-43c8-8a1e-8c4ff7aaf3b4")
 	)
 	(wire
 		(pts
@@ -4657,16 +4398,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 124.46) (xy 25.4 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "594ae6e1-a71f-4b32-be44-dd62d1f91cdb")
-	)
-	(wire
-		(pts
 			(xy 27.94 90.17) (xy 27.94 92.71)
 		)
 		(stroke
@@ -4704,6 +4435,16 @@
 			(type default)
 		)
 		(uuid "6130210c-e8ae-477e-9192-47c4426ad02a")
+	)
+	(wire
+		(pts
+			(xy 39.37 124.46) (xy 50.8 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "617e0210-6fc6-4d5a-a083-0e7ea143f3c0")
 	)
 	(wire
 		(pts
@@ -4804,6 +4545,16 @@
 			(type default)
 		)
 		(uuid "768f964c-fb79-4fbc-a745-16d3cc895649")
+	)
+	(wire
+		(pts
+			(xy 39.37 130.81) (xy 39.37 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e87881-8445-472b-acd8-f460881737f0")
 	)
 	(polyline
 		(pts
@@ -4957,7 +4708,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 124.46) (xy 50.8 124.46)
+			(xy 20.32 124.46) (xy 39.37 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5054,6 +4805,16 @@
 			(type default)
 		)
 		(uuid "aaa6bb94-8a7f-418d-bd34-c661accfd6f5")
+	)
+	(wire
+		(pts
+			(xy 39.37 146.05) (xy 50.8 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab149137-913f-43b9-9a7a-de25b243e0bd")
 	)
 	(wire
 		(pts
@@ -5217,6 +4978,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 138.43) (xy 39.37 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac7603d-4541-405a-9a7a-9f247f07735d")
+	)
+	(wire
+		(pts
 			(xy 97.79 30.48) (xy 105.41 30.48)
 		)
 		(stroke
@@ -5234,16 +5005,6 @@
 			(type default)
 		)
 		(uuid "df74059f-9cb9-4dcb-9e44-293604b03b1f")
-	)
-	(wire
-		(pts
-			(xy 17.78 137.16) (xy 17.78 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0052a8c-9eb3-4576-89ea-fdabd522aba5")
 	)
 	(wire
 		(pts
@@ -6687,6 +6448,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 17.78 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3129e1a2-2e2b-40f7-9a3c-3e7a19ab4850")
+		(property "Reference" "#PWR0119"
+			(at 17.78 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 17.78 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 17.78 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2adc49c4-446b-4349-b6b6-029ecdfe1561")
+		)
+		(instances
+			(project "flight computer"
+				(path "/bdd95a45-8144-4be4-bdb0-261aee7edef2"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Samacsys:114993390")
 		(at 130.81 86.36 0)
 		(unit 1)
@@ -7072,7 +6911,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 50.8 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8491,90 +8330,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Snapeda:PESD0402-140")
-		(at 25.4 137.16 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9eb2ef8-8c86-44c5-9242-d60c985c4a06")
-		(property "Reference" "CR2"
-			(at 29.21 129.5399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PESD0402-140"
-			(at 29.21 132.0799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
-			(at 29.21 132.0799 90)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Datasheet" "PESD0402-140"
-			(at 29.21 134.6199 90)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Description" ""
-			(at 25.4 137.16 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6160f38e-d3d7-4703-a2f8-7b1b41b9265c")
-		)
-		(pin "2"
-			(uuid "f14c7bdb-2709-498b-9562-f03646622c6d")
-		)
-		(instances
-			(project "flight computer"
-				(path "/bdd95a45-8144-4be4-bdb0-261aee7edef2"
-					(reference "CR2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 149.86 55.88 0)
 		(unit 1)
@@ -8648,6 +8403,88 @@
 			(project "flight computer"
 				(path "/bdd95a45-8144-4be4-bdb0-261aee7edef2"
 					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 39.37 134.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5ce8afd-59dd-4f8b-86fe-6d226d92eea2")
+		(property "Reference" "D2"
+			(at 41.91 133.3499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 41.91 135.8899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 39.37 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 39.37 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c0be2509-ed61-44bc-881c-d0e9e1f2ebdc")
+		)
+		(pin "2"
+			(uuid "fa4f0b5e-7b67-4509-a9fe-685c11ef9f47")
+		)
+		(instances
+			(project "flight computer"
+				(path "/bdd95a45-8144-4be4-bdb0-261aee7edef2"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -9085,84 +8922,6 @@
 			(project "flight computer"
 				(path "/bdd95a45-8144-4be4-bdb0-261aee7edef2"
 					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 21.59 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d95092a3-f521-4daa-b603-31bd9fe276db")
-		(property "Reference" "#PWR0103"
-			(at 21.59 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 21.59 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 21.59 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 21.59 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "28b04967-1633-48de-9289-8a513d2e6a13")
-		)
-		(instances
-			(project "flight computer"
-				(path "/bdd95a45-8144-4be4-bdb0-261aee7edef2"
-					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
