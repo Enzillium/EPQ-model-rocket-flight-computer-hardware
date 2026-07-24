@@ -143,7 +143,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.15,
-        "min_track_width": 0.1,
+        "min_track_width": 0.089,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
@@ -530,7 +530,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerber/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -824,7 +824,7 @@
         "uuid": "bdd95a45-8144-4be4-bdb0-261aee7edef2"
       }
     ],
-    "used_designators": "Y2,#PWR119,D1-2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

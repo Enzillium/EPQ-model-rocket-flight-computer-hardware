@@ -6737,7 +6737,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "10"
 			(at 67.31 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6900,7 +6900,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "27nH"
 			(at 52.07 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8270,7 +8270,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "10nF"
 			(at 54.61 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)

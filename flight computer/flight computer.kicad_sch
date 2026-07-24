@@ -3569,6 +3569,12 @@
 		(uuid "b70ca317-5d69-46c5-a13f-36746090f62e")
 	)
 	(junction
+		(at 179.07 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1cb6418-d685-4293-993a-9926437dafc3")
+	)
+	(junction
 		(at 175.26 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4733,7 +4739,7 @@
 		(uuid "2032721e-e92a-4ec1-8c7b-1b6b829bfb7f")
 	)
 	(label "MISO"
-		(at 143.51 106.68 0)
+		(at 130.81 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4883,7 +4889,7 @@
 		(uuid "4fd3e873-49c5-4545-b566-8ea696be651c")
 	)
 	(label "BNO086 CS"
-		(at 143.51 101.6 0)
+		(at 130.81 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4913,7 +4919,7 @@
 		(uuid "591ce607-7f0e-4026-8308-3179ae0d96c3")
 	)
 	(label "SCK"
-		(at 143.51 93.98 0)
+		(at 130.81 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5093,7 +5099,7 @@
 		(uuid "8de2d5f3-d013-4716-b67a-cda15add7041")
 	)
 	(label "MOSI"
-		(at 143.51 104.14 0)
+		(at 130.81 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5263,7 +5269,7 @@
 		(uuid "da7098d5-d4cf-4fd7-9906-bd8b75e1fe6d")
 	)
 	(label "ADXL375 CS"
-		(at 143.51 96.52 0)
+		(at 130.81 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5283,7 +5289,7 @@
 		(uuid "dcd072f1-56eb-4aae-93fe-b2c6181203e9")
 	)
 	(label "BMP581 CS"
-		(at 143.51 99.06 0)
+		(at 130.81 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7968,7 +7974,7 @@
 		(fields_autoplaced yes)
 		(uuid "a743fdbe-9ef6-4cda-bac9-b24ae5036833")
 		(property "Reference" "C17"
-			(at 213.36 105.41 90)
+			(at 213.36 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7977,8 +7983,8 @@
 				)
 			)
 		)
-		(property "Value" "27pF"
-			(at 213.36 107.95 90)
+		(property "Value" "15pF"
+			(at 213.36 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8357,6 +8363,89 @@
 			(project "flight computer"
 				(path "/bfc6d187-34e5-4475-ae17-354b2103d42a"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 179.07 54.61 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1df581b-ae23-456b-8ce9-464fb8612e83")
+		(property "Reference" "R12"
+			(at 176.53 53.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 176.53 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 177.292 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d8e7e608-b64b-4937-85e7-6c93c9730c35")
+		)
+		(pin "1"
+			(uuid "11e975a8-00aa-4640-812b-50fb5055263c")
+		)
+		(instances
+			(project "flight computer"
+				(path "/bfc6d187-34e5-4475-ae17-354b2103d42a"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9110,7 +9199,7 @@
 				)
 			)
 		)
-		(property "Value" "27pF"
+		(property "Value" "15pF"
 			(at 213.36 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9654,6 +9743,84 @@
 			(project "flight computer"
 				(path "/bfc6d187-34e5-4475-ae17-354b2103d42a"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 179.07 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb045235-4465-4d3f-99b9-54865835180a")
+		(property "Reference" "#PWR020"
+			(at 179.07 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 179.07 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 179.07 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "595cbec2-e9f3-457c-9caf-efa7f816de8f")
+		)
+		(instances
+			(project "flight computer"
+				(path "/bfc6d187-34e5-4475-ae17-354b2103d42a"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
