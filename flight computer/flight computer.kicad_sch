@@ -3533,6 +3533,12 @@
 		(uuid "8195bfff-b39d-4a97-b6ba-b613b68cb012")
 	)
 	(junction
+		(at 39.37 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bf43689-badb-4b76-a7d2-b77f92bb4fe1")
+	)
+	(junction
 		(at 26.67 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3653,6 +3659,12 @@
 		(uuid "f60b6f85-9e22-44a2-ad7a-ffdf315e1125")
 	)
 	(junction
+		(at 41.91 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb0316d0-69b5-480c-af01-983f991c5e40")
+	)
+	(junction
 		(at 38.1 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3673,20 +3685,16 @@
 		(uuid "696da01d-e4a0-4b7d-90e7-42cc62164c1c")
 	)
 	(no_connect
-		(at 44.45 114.3)
-		(uuid "6aefc81f-1738-492d-911a-8f84483c8079")
-	)
-	(no_connect
-		(at 39.37 80.01)
-		(uuid "73c8c5bd-6039-4a51-b6c2-6894eca62992")
+		(at 130.81 127)
+		(uuid "81271635-3aed-49eb-b218-5490f5fbcc20")
 	)
 	(no_connect
 		(at 130.81 154.94)
 		(uuid "def089da-345e-4dff-976b-5d235a900aeb")
 	)
 	(no_connect
-		(at 130.81 91.44)
-		(uuid "e60a5bf2-348e-4644-9017-2fb2a3a3bd76")
+		(at 130.81 76.2)
+		(uuid "e8233805-bda3-45ad-8005-35d885a550e6")
 	)
 	(wire
 		(pts
@@ -4158,6 +4166,16 @@
 		)
 		(uuid "810b9bd6-30ce-4e9a-a233-08a7eae530c9")
 	)
+	(wire
+		(pts
+			(xy 41.91 114.3) (xy 39.37 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "817863f0-c2f8-4f73-bf0b-2675a9b924fb")
+	)
 	(polyline
 		(pts
 			(xy 165.1 77.47) (xy 165.1 110.49)
@@ -4187,16 +4205,6 @@
 			(type default)
 		)
 		(uuid "8bdfe4a1-ed1a-4d23-9068-26d8f844f5ae")
-	)
-	(wire
-		(pts
-			(xy 34.29 74.93) (xy 39.37 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c5155f3-b855-4778-9330-56bbf9356ebc")
 	)
 	(wire
 		(pts
@@ -4380,6 +4388,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 80.01) (xy 39.37 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e2663b-8994-4634-9b6e-5589a0709f48")
+	)
+	(wire
+		(pts
 			(xy 100.33 21.59) (xy 95.25 21.59)
 		)
 		(stroke
@@ -4437,6 +4455,16 @@
 			(type dash)
 		)
 		(uuid "c602f978-674d-4cef-b427-c8e6dae0b475")
+	)
+	(wire
+		(pts
+			(xy 41.91 114.3) (xy 44.45 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c622cfcf-35d2-4044-bdda-1bc669d68d0e")
 	)
 	(wire
 		(pts
@@ -4889,7 +4917,7 @@
 		(uuid "4fd3e873-49c5-4545-b566-8ea696be651c")
 	)
 	(label "BNO086 CS"
-		(at 130.81 101.6 0)
+		(at 130.81 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4908,6 +4936,16 @@
 		)
 		(uuid "546029f8-067f-4fa6-8da1-5c6fd71df2ee")
 	)
+	(label "MAX M10S RX"
+		(at 130.81 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55d6f35a-b524-4a81-9b67-19699c7eae17")
+	)
 	(label "QSPI_SD2"
 		(at 63.5 109.22 0)
 		(effects
@@ -4919,7 +4957,7 @@
 		(uuid "591ce607-7f0e-4026-8308-3179ae0d96c3")
 	)
 	(label "SCK"
-		(at 130.81 99.06 0)
+		(at 130.81 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4939,7 +4977,7 @@
 		(uuid "5f7ef1ed-e4dc-49d7-96dc-821ec5df8374")
 	)
 	(label "MAX M10S reset"
-		(at 130.81 88.9 0)
+		(at 130.81 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4948,18 +4986,8 @@
 		)
 		(uuid "600ff111-3d8a-4bdf-a3fb-18c1ab7f60d4")
 	)
-	(label "buzzer"
-		(at 130.81 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6678f3d5-4a0a-46bd-8051-c4c3dd131b06")
-	)
 	(label "MAX M10S boot"
-		(at 130.81 86.36 0)
+		(at 130.81 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4979,7 +5007,7 @@
 		(uuid "68ed7f34-2611-4332-86fc-a495c13bcc38")
 	)
 	(label "MAX M10S int"
-		(at 130.81 76.2 0)
+		(at 130.81 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5128,7 +5156,7 @@
 		)
 		(uuid "975f0588-02b3-4d2d-827f-6ddc4a383aa5")
 	)
-	(label "MAX M10S TX"
+	(label "MAX M10S timepulse"
 		(at 130.81 83.82 0)
 		(effects
 			(font
@@ -5136,27 +5164,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9b366d73-75f3-425e-bbd2-a3363c65c6c9")
-	)
-	(label "MAX M10S timepulse"
-		(at 130.81 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
 		(uuid "9c0437b1-23bf-4fd5-b61b-0858d6cae8df")
-	)
-	(label "MAX M10S RX"
-		(at 130.81 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c7d3e3d-1a15-44e5-b45c-cc3dec87ffa9")
 	)
 	(label "QSPI_SD1"
 		(at 63.5 106.68 0)
@@ -5217,6 +5225,16 @@
 			(justify left bottom)
 		)
 		(uuid "b2887c33-2546-4b53-b1ec-7b12f6035a1d")
+	)
+	(label "MAX M10S TX"
+		(at 130.81 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2a44de8-f64b-4b3d-82c7-d93ef65aa013")
 	)
 	(label "pyro 1 continuity"
 		(at 80.01 142.24 180)
@@ -8453,7 +8471,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 114.3 0)
+		(at 41.91 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8464,7 +8482,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9806bda-4db6-47f6-9653-d2e873b8e800")
 		(property "Reference" "#PWR05"
-			(at 39.37 120.65 0)
+			(at 41.91 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8475,7 +8493,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 119.38 0)
+			(at 41.91 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8485,7 +8503,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 114.3 0)
+			(at 41.91 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8496,7 +8514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 114.3 0)
+			(at 41.91 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8507,7 +8525,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 114.3 0)
+			(at 41.91 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9911,7 +9929,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 74.93 0)
+		(at 39.37 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9922,7 +9940,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc3b2e04-45af-4a03-bff0-a7f2c5b9034b")
 		(property "Reference" "#PWR019"
-			(at 34.29 81.28 0)
+			(at 39.37 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9933,7 +9951,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 80.01 0)
+			(at 39.37 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9943,7 +9961,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 74.93 0)
+			(at 39.37 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9954,7 +9972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 74.93 0)
+			(at 39.37 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9965,7 +9983,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 74.93 0)
+			(at 39.37 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
